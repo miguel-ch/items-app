@@ -1,11 +1,11 @@
 import { memo } from "react";
 
-const SearchBox = () => {
+const SearchBox = ({ action }) => {
   let searchTimeout;
   const handleChange = (e) => {
     clearInterval(searchTimeout);
     searchTimeout = setTimeout(() => {
-      console.log(e.target.value);
+      action(e.target.value);
     }, 300);
   };
 

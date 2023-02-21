@@ -6,7 +6,7 @@ const AppFooter = () => {
       <div className="p-3 bg-slate-900 bottom-0 mx-auto text-slate-600">
         <center>
           <b>
-            Weather App | {""}
+            Items App | {""}
             <a href="https://github.com/miguel-ch/items-app" target="_blank">
               Github Repository
             </a>
